@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @media screen and (max-width : 1200px) {
+    img{
+        
+    }
+}
+
+@media screen and (max-width : 960px) {
+    img{
+        
+    }
+}
+
+@media screen and (max-width : 768px) {
+    img{
+       
+        
+    }
+} */
+
+.imagex {
+    width: 200px; 
+    height: 170px; 
+    overflow: hidden; 
+    transition: 0.3s ease;
+
+}
+.imagex:hover {
+    transform: scale(1.1);
+}
+
+.contimg {
+    overflow: hidden;
+    display: inline-block;
+}
+.imagexx{
+    transition: 0.5s;
+}
+
+.imagexx:hover{
+    transform: scale(1.1);
+}
+
+.image-container img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
